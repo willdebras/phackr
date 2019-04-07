@@ -1,11 +1,28 @@
-[0m[0KMicrosoft Windows [Version 10.0.16299.431][0K[?25l
+[0mMicrosoft Windows [Version 10.0.16299.431][0K[?25l
 (c) 2017 Microsoft Corporation. All rights reserved.[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git i[0K[?25hn[0Ki[0Kt[0K]0;  - git  init[?25l
-[0K[?25h]0; Initialized empty Git repository in C:/Users/Bonnell-William/Desktop/phackr/.git/[0K[?25l
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote a[0K[?25hd[0Kd[0K[56G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[63G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin ^V[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin[0K[63G[?25h[?25l[2A(c) 2017 Microsoft Corporation. All rights res[0Ke
+rved.[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git a[0K[?25hd[0Kd[0K[49G[?25l
-[0K[?25h]0;  - git  add ]0; Nothing specified, nothing added.[0K[?25l
-Maybe you wanted to say 'git add .'?[0K
+C:\Users\Bonnell-William\Desktop\phackr>git re[0Km
+ote add origin[0K[16G[?25h[?25lote add origin g[0K[?25hi[0Kt[0K@[0Kg[0Ki[0Kt[0Kh[0Ku[0Kb[0K.[0Kc[0Ko[0Km[0K:[0Kw[0Ki[0Kl[0Kl[0Kd[0Ke[0Kb[0Kr[0Ka[0Ks[0K/[0Kp[0Kh[0Ka[0Kc[0Kh[0K[?25lote add origin git@github.com:willdebras/phac[0K[?25hk[0K[0Kr[?25l
+[0K[?25h.[0Kg[0Ki[0Kt[0K]0;  - git  remote add origin git@github.com:willdebras/phackr.git[?25l
+[0K[?25h]0; [?25l
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kr[0Kt[0K[46G[?25lC:\Users\Bonnell-William\Desktop\phackr>girt p[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>girt[0K[46G[?25h[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>gir[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>gi[0K[?25ht[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git p[0K[?25hu[0K[0Ks[?25l
+[0K[?25hh[0K[3G[?25lh -[0K[?25hu[0K[6G[?25lh -u i[0K[?25h[?25lh -u[0K[6G[?25h[?25lh -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[13G[?25lh -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K]0;  - git  push -u origin master[?25l
+[0K[?25h]0; error: src refspec master does not match any[0K[?25l
+[0;31merror: failed to push some refs to 'git@github[0K.
+com:willdebras/phackr.git'[0m[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git a[0K[?25hd[0Kd[0K[49G[?25lC:\Users\Bonnell-William\Desktop\phackr>git add .[0K[?25h
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25h[?25l[11A[0K
+C:\Users\Bonnell-William\Desktop\phackr>git remote add origin git@github.com:willdebras/phackr.git[0K
+[0K
+C:\Users\Bonnell-William\Desktop\phackr>git push -u origin master[0K
+error: src refspec master does not match any[0K
+[0;31merror: failed to push some refs to 'git@github.com:willdebras/phackr.git'[0K
+[0m[0K
+C:\Users\Bonnell-William\Desktop\phackr>[0K
+[0K
+[0K
+[0K
+[0K[4A[41G[?25h
