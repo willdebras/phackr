@@ -26,17 +26,12 @@ survey_data <- full_data %>%
                              0)) %>%
   as_survey_design(weights = finalwt, id = su_id)
 
-#test
-predictorlist<- list("x1","x2")
-for (i in predictorlist){
-  model <- lm(paste("y ~", i[[1]]), data=df)
-  print(summary(model))
-}
-
+#test2
 covariates <- list("census_region", "gender", "q42")
+results <- list()
 for (i in covariates) {
   olr_models <- svyolr(paste("factor(q41) ~ factor(politics) + urban + agegrp + education + hhincome +", i[[1]]), survey_data)
-  print(summary(olr_models))
+  results[[i]] <- tidy(olr_models[[i]])
 }
 
 
