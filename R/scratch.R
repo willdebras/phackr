@@ -57,6 +57,26 @@ results <- data.frame(pluck(covariates_models, 1, 1)) %>%
   ) %>%
   select(mvr)
 
+#Function to extract all elements of list
+
+extract_elements <- function(x, y) {
+
+  data.frame(pluck(covariates_models, x, y)) %>%
+    filter(coefficient_type == "coefficient") %>%
+    mutate(p = round((pnorm(abs(statistic), lower.tail = FALSE) * 2), digits = 5),
+           mvr = ifelse(p > 0.05,
+                        "",
+                        ifelse(estimate > 0,
+                               "+",
+                               "-")
+           )
+    ) %>%
+    select(mvr)
+
+}
+
+extract_elements(1, 2)
+
 ##########################
 #Working Ologit and Logit#
 ##########################
