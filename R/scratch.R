@@ -11,7 +11,7 @@ library(purrr)
 options(scipen=10)
 
 #Import dataset
-full_data <- import("T:\\saved_downloads\\apnorc_thanksgiving_nov2017.dta")
+full_data <- import("H:\\New fldr\\full_data.dta")
 full_data[, 2:ncol(full_data)][full_data[, 2:ncol(full_data)] == -99] <- NA
 full_data[, 2:ncol(full_data)][full_data[, 2:ncol(full_data)] == 77] <- NA
 full_data[, 2:ncol(full_data)][full_data[, 2:ncol(full_data)] == 98] <- NA
@@ -23,6 +23,10 @@ survey_data <- full_data %>%
                              1,
                              0)) %>%
   as_survey_design(weights = finalwt, id = su_id)
+
+
+
+
 
 #Create list of list of regression outputs
 demographics <- "~ factor(politics) + urban + agegrp + education + hhincome +"
@@ -59,7 +63,7 @@ results <- data.frame(pluck(covariates_models, 1, 1)) %>%
 
 #Function to extract all elements of list
 
-extract_elements <- function(x, y) {
+extract_elements <- function(y, x) {
 
   data.frame(pluck(covariates_models, x, y)) %>%
     filter(coefficient_type == "coefficient") %>%
@@ -75,7 +79,7 @@ extract_elements <- function(x, y) {
 
 }
 
-extract_elements(1, 2)
+extract_elements(1, 1)
 
 ##########################
 #Working Ologit and Logit#
