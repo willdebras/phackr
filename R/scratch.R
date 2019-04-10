@@ -5,6 +5,7 @@ library(srvyr)
 library(rio)
 library(mitools)
 library(broom)
+library(purrr)
 
 #Stop the war crime of scientific notation
 options(scipen=10)
@@ -41,6 +42,20 @@ for (i in covariates) {
  covariates_models[[i]] <- dv_models
 
 }
+
+#Extract elements
+
+results <- data.frame(pluck(covariates_models, 1, 1)) %>%
+  filter(coefficient_type == "coefficient") %>%
+  mutate(p = round((pnorm(abs(statistic), lower.tail = FALSE) * 2), digits = 5),
+         mvr = ifelse(p > 0.05,
+                      "",
+                      ifelse(estimate > 0,
+                             "+",
+                             "-")
+         )
+  ) %>%
+  select(mvr)
 
 ##########################
 #Working Ologit and Logit#
