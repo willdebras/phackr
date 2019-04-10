@@ -25,7 +25,11 @@ survey_data <- full_data %>%
   as_survey_design(weights = finalwt, id = su_id)
 
 
+demos <- c("politics", "urban", "agegrp", "education")
 
+demos2 <- paste(demos, collapse = " + ")
+demos3 <- paste("~ ", demos2, " +")
+demos2
 
 
 #Create list of list of regression outputs

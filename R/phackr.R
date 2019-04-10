@@ -9,12 +9,15 @@ phackr <- function(data, dvs, demos, covs) {
   dv <- as.list(dvs)
   covariates <- as.list(covs)
 
+  demos_list <- paste(demos, collapse = " + ")
+  demos_input <- paste("~ ", demos_list, " +")
+
 
   for (i in covariates) {
 
     for (j in dv) {
 
-      dv_models[[j]] <- tidy(svyolr(paste(j[[1]], demographics, i[[1]]), survey_data))
+      dv_models[[j]] <- tidy(svyolr(paste(j[[1]], demos_input, i[[1]]), survey_data))
 
     }
 
