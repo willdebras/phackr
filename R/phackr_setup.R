@@ -1,5 +1,5 @@
 
-phackr_setup <- fun(data, weight, caseid) {
+phackr_setup <- function(data, weight, caseid) {
 
   data[, 2:ncol(data)][data[, 2:ncol(data)] == -99] <- NA
   data[, 2:ncol(data)][data[, 2:ncol(data)] == 77] <- NA
