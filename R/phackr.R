@@ -32,7 +32,7 @@ phackr <- function(data, dvs, demos) {
 
   for (i in 1:length(dv_models)) {
 
-    sheet[(i+1)] <- add_column(extract_elements(i))
+    sheet[(i+1)] <- add_column(extract_elements_single(i))
 
   }
 
