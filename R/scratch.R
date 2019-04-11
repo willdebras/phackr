@@ -6,6 +6,7 @@ library(rio)
 library(mitools)
 library(broom)
 library(purrr)
+test
 
 #Stop the war crime of scientific notation
 options(scipen=10)
