@@ -6,6 +6,15 @@ Author: Tomas Okal and Will Bonnell
 Maintainer: Will Bonnell <bonnell-william@norc.org>
 Description: This package allows one to input demos, covariates, and dependent variables into a single function that runs a survey weighted multivariate regression.
     It then outputs excel workbooks to show the significance between variables across multiple dependent questions and multiple models.
-License: Who needs licenses?
+Imports: 
+  survey,
+  dplyr,
+  srvyr,
+  purrr,
+  tibble
+Suggests:
+  rio,
+  tidyverse
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
