@@ -31,4 +31,4 @@ phackr <- function(data, dvs, demos) {
 dvs <- c("factor(q41)", "factor(q42)", "factor(raceth)", "factor(census_region)", "factor(politics)", "factor(marital)")
 demos <- c("hhincome", "urban", "agegrp", "education")
 
-sheet1 <- phackr0(data = survey_data, dvs = dvs, demos = demos)
+sheet1 <- phackr(data = survey_data, dvs = dvs, demos = demos)
