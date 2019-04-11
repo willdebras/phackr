@@ -1,12 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-phackr
-======
 
-The goal of phackr is to produce excel sheets showing multivariate significance for several dependent variables across as many covariates as specified. The future plan for the package is to allow specification of several interchangeable covariates to output to multiple excel sheets.
+# phackr
 
-Installation
-------------
+The goal of phackr is to produce excel sheets showing multivariate
+significance for several dependent variables across as many covariates
+as specified. The future plan for the package is to allow specification
+of several interchangeable covariates to output to multiple excel
+sheets.
+
+## Installation
 
 You can install the development version from github with:
 
@@ -20,8 +23,7 @@ library(phackr)
 library(tibble)
 ```
 
-Example
--------
+## Example
 
 You can use the `phackr_setup()` function to setup a survey object
 
@@ -32,7 +34,8 @@ data <- import("full_data.dta")
 survey_data <- phackr_setup(data = data, weight = "finalwt", caseid = "su_id")
 ```
 
-Once it is setup, you can use the `phackr()` function to actually produce the tables.
+Once it is setup, you can use the `phackr()` function to actually
+produce the tables.
 
 ``` r
 
@@ -43,9 +46,9 @@ kable(sheet1)
 ```
 
 |           | factor(q41) | factor(q42) |
-|-----------|:------------|:------------|
+| --------- | :---------- | :---------- |
 | marital   |             |             |
-| education | -           |             |
+| education | \-          |             |
 | gender    |             |             |
 | empstatus |             |             |
 | agegrp    |             |             |
