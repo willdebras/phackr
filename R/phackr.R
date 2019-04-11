@@ -1,30 +1,34 @@
 
 
-phackr <- function(data, dvs, demos, covs) {
+phackr <- function(data, dvs, demos) {
 
   ###create empty lists to fill
   dv_models <- list()
-  covariates_models <- list()
 
   dv <- as.list(dvs)
-  covariates <- as.list(covs)
 
-  demos_list <- paste(demos, collapse = " + ")
-  demos_input <- paste("~ ", demos_list, " +")
+  for (i in dv) {
 
+    dv_models[[i]] <- tidy(svyolr(paste(i[[1]], paste("~ ", paste(demos, collapse = " + "))), data))
 
-  for (i in covariates) {
+  }
+  sheet <- tibble(rows = demos)
 
-    for (j in dv) {
+  for (i in 1:length(dv_models)) {
 
-      dv_models[[j]] <- tidy(svyolr(paste(j[[1]], demos_input, i[[1]]), survey_data))
-
-    }
-
-    covariates_models[[i]] <- dv_models
+    sheet[(i+1)] <- add_column(extract_elements(i))
 
   }
 
+  sheet <- sheet %>%
+    remove_rownames %>%
+    column_to_rownames(var="rows") %>%
+    `colnames<-`(unlist(dv, use.names = FALSE))
 
 
 }
+
+dvs <- c("factor(q41)", "factor(q42)", "factor(raceth)", "factor(census_region)", "factor(politics)", "factor(marital)")
+demos <- c("hhincome", "urban", "agegrp", "education")
+
+sheet1 <- phackr0(data = survey_data, dvs = dvs, demos = demos)
