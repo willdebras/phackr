@@ -7,7 +7,8 @@
 #' @return a single column tibble indicating significance and directionality of an ordinal logit regression output
 #' @export
 #' @import dplyr
-#' @importFrom pluck purrr
+#' @importFrom purrr pluck
+#' @import magrittr
 #'
 extract_elements_single <- function(x) {
 

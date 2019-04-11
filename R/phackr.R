@@ -11,6 +11,8 @@
 #' @importFrom survey svyolr
 #' @importFrom broom tidy
 #' @importFrom tibble tibble
+#' @importFrom tibble add_column
+#' @import magrittr
 #'
 #' @examples
 #' sheet1 <- phackr(data = survey_data, dvs = c("q2", "q3", "q4"), demos = c("race", "partyid", "gender"))

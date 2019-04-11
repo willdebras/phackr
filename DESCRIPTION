@@ -11,10 +11,12 @@ Imports:
   dplyr,
   srvyr,
   purrr,
-  tibble
+  tibble,
+  magrittr
 Suggests:
   rio,
   tidyverse
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1.9000

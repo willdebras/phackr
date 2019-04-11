@@ -9,6 +9,7 @@
 #'
 #' @return Returns a survey object
 #' @export
+#' @import magrittr
 #'
 #' @examples
 #' survey_data <- phackr_setup(data = "omnibus18", weight = "finalweight", caseid = "caseid")
