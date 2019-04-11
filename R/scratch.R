@@ -71,4 +71,3 @@ sheet <- sheet %>%
   column_to_rownames(var="rows") %>%
   `colnames<-`(unlist(dv, use.names = FALSE))
 
-rename(sheet, (unlist(dv, use.names = FALSE)) = 2:ncol())
