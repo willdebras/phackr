@@ -39,16 +39,20 @@ produce the tables.
 
 ``` r
 
-sheet1 <- phackr(data = survey_data, dvs = c("factor(q41)", "factor(q42)"), demos = c("marital", "education", "gender", "empstatus", "agegrp"))
+sheet1 <- phackr(data = survey_data, 
+                 dvs = c("factor(trade1a)", "factor(trade1b)", "factor(trade1c)", "factor(trade1d)", "factor(trade1e)", "factor(trade1f)", "factor(trade1g)", "factor(trade2)", "factor(trade3a)", "factor(trade3b)", "factor(trade3c)"), 
+                 demos = c("urban", "marital", "agegrp", "education", "hhincome", "empstatus", "gender"))
 
 library(knitr)
 kable(sheet1)
 ```
 
-|           | factor(q41) | factor(q42) |
-| --------- | :---------- | :---------- |
-| marital   |             |             |
-| education | \-          |             |
-| gender    |             |             |
-| empstatus |             |             |
-| agegrp    |             |             |
+|           | factor(trade1a) | factor(trade1b) | factor(trade1c) | factor(trade1d) | factor(trade1e) | factor(trade1f) | factor(trade1g) | factor(trade2) | factor(trade3a) | factor(trade3b) | factor(trade3c) |
+| --------- | :-------------- | :-------------- | :-------------- | :-------------- | :-------------- | :-------------- | :-------------- | :------------- | :-------------- | :-------------- | :-------------- |
+| urban     |                 |                 |                 |                 |                 |                 |                 | \-             |                 | \+              |                 |
+| marital   |                 |                 |                 | \-              | \-              |                 |                 |                |                 |                 | \+              |
+| agegrp    |                 |                 |                 |                 |                 |                 |                 |                |                 |                 |                 |
+| education |                 |                 | \-              |                 |                 |                 |                 | \+             | \+              | \-              |                 |
+| hhincome  |                 | \-              |                 |                 |                 |                 |                 |                |                 |                 |                 |
+| empstatus |                 |                 |                 |                 |                 |                 |                 |                |                 |                 |                 |
+| gender    |                 |                 |                 |                 | \-              | \+              |                 | \+             |                 |                 |                 |
