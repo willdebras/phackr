@@ -10,8 +10,7 @@
 #' @export
 #' @importFrom survey svyolr
 #' @importFrom broom tidy
-#' @importFrom tibble tibble
-#' @importFrom tibble add_column
+#' @import tibble
 #' @import magrittr
 #'
 #' @examples
