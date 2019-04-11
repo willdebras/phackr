@@ -1,11 +1,11 @@
 Package: phackr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Produces excel sheets showing multivariate significance and directionality
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Tomas Okal and Will Bonnell
+Maintainer: Will Bonnell <bonnell-william@norc.org>
+Description: This package allows one to input demos, covariates, and dependent variables into a single function that runs a survey weighted multivariate regression.
+    It then outputs excel workbooks to show the significance between variables across multiple dependent questions and multiple models.
+License: Who needs licenses?
 Encoding: UTF-8
 LazyData: true

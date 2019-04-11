@@ -6,12 +6,13 @@ library(rio)
 library(mitools)
 library(broom)
 library(purrr)
+test
 
 #Stop the war crime of scientific notation
 options(scipen=10)
 
 #Import dataset
-full_data <- import("H:\\New fldr\\full_data.dta")
+full_data <- import("T:\\Programs\\r_projects\\phackr\\full_data.dta")
 full_data[, 2:ncol(full_data)][full_data[, 2:ncol(full_data)] == -99] <- NA
 full_data[, 2:ncol(full_data)][full_data[, 2:ncol(full_data)] == 77] <- NA
 full_data[, 2:ncol(full_data)][full_data[, 2:ncol(full_data)] == 98] <- NA
@@ -25,51 +26,23 @@ survey_data <- full_data %>%
   as_survey_design(weights = finalwt, id = su_id)
 
 
-demos <- c("politics", "urban", "agegrp", "education")
-
-demos2 <- paste(demos, collapse = " + ")
-demos3 <- paste("~ ", demos2, " +")
-demos2
-
+demos <- c("hhincome", "urban", "agegrp", "education")
+dv <- list("factor(q41)", "factor(q42)", "factor(raceth)", "factor(census_region)", "factor(politics)", "factor(marital)")
 
 #Create list of list of regression outputs
-demographics <- "~ factor(politics) + urban + agegrp + education + hhincome +"
-dv <- list("factor(q41)", "factor(q42)")
-covariates <- list("census_region", "gender")
 dv_models <- list()
-covariates_models <- list()
 
-for (i in covariates) {
+for (i in dv) {
 
-  for (j in dv) {
-
-    dv_models[[j]] <- tidy(svyolr(paste(j[[1]], demographics, i[[1]]), survey_data))
-
-  }
-
- covariates_models[[i]] <- dv_models
+  dv_models[[i]] <- tidy(svyolr(paste(i[[1]], paste("~ ", paste(demos, collapse = " + "))), survey_data))
 
 }
 
-#Extract elements
-
-results <- data.frame(pluck(covariates_models, 1, 1)) %>%
-  filter(coefficient_type == "coefficient") %>%
-  mutate(p = round((pnorm(abs(statistic), lower.tail = FALSE) * 2), digits = 5),
-         mvr = ifelse(p > 0.05,
-                      "",
-                      ifelse(estimate > 0,
-                             "+",
-                             "-")
-         )
-  ) %>%
-  select(mvr)
-
 #Function to extract all elements of list
 
-extract_elements <- function(y, x) {
+extract_elements <- function(x) {
 
-  data.frame(pluck(covariates_models, x, y)) %>%
+  data.frame(pluck(dv_models, x)) %>%
     filter(coefficient_type == "coefficient") %>%
     mutate(p = round((pnorm(abs(statistic), lower.tail = FALSE) * 2), digits = 5),
            mvr = ifelse(p > 0.05,
@@ -83,37 +56,18 @@ extract_elements <- function(y, x) {
 
 }
 
-extract_elements(1, 1)
+#Function to create dataframe of mvr results
 
-##########################
-#Working Ologit and Logit#
-##########################
+sheet <- tibble(rows = demos)
 
-#Ordinal Logit
-m <- svyolr(factor(q42) ~ factor(politics) + urban + agegrp + education + hhincome + gender, survey_data)
-tidy(m)
-tidym <- tidy(m)
-tidym$p <- round((pnorm(abs(tidym$statistic), lower.tail = FALSE) * 2), digits = 5)
+for (i in 1:length(dv_models)) {
 
-tidym <- tidym %>%
-  mutate(mvr = ifelse(p > 0.05,
-                      "",
-                      ifelse(estimate > 0,
-                             "+",
-                             "-")
-                      )
-         ) %>%
-  filter(coefficient_type == "coefficient")
+  sheet[(i+1)] <- add_column(extract_elements(i))
 
-#Logit
-glm <- svyglm(q41_binary ~ urban + agegrp + education + hhincome + gender, family = binomial, survey_data)
+}
 
-tidyglm <- tidy(glm) %>%
-  mutate(mvr = ifelse(p.value > 0.05,
-                      "",
-                      ifelse(estimate > 0,
-                             "+",
-                             "-")
-                      )
-  )
+sheet <- sheet %>%
+  remove_rownames %>%
+  column_to_rownames(var="rows") %>%
+  `colnames<-`(unlist(dv, use.names = FALSE))
 
