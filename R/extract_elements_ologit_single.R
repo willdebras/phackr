@@ -10,7 +10,7 @@
 #' @importFrom purrr pluck
 #' @import magrittr
 #'
-extract_elements_single <- function(dv_models, x) {
+extract_elements_ologit_single <- function(dv_models, x) {
 
   data.frame(pluck(dv_models, x)) %>%
     filter(coefficient_type == "coefficient") %>%

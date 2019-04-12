@@ -10,7 +10,7 @@
 #' @importFrom purrr pluck
 #' @import magrittr
 #'
-extract_elements_single <- function(dv_models, x) {
+extract_elements_logit_single <- function(dv_models, x) {
 
   data.frame(pluck(dv_models, x)) %>%
     slice(-1) %>%
