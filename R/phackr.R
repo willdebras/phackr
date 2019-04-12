@@ -5,7 +5,7 @@
 #' @param data A survey data object. This can be created with the phackr_setup function
 #' @param dvs A vector of dependent variables to run the same model across.
 #' @param demos A vector of demographic variables and covariates to include in the ologit model.
-#' @param logit A parameter to run logistic regressions.
+#' @param logit A parameter to run logistic regressions. Defaults to ordinal logistic regression.
 #'
 #' @return Returns a tibble that can quickly be written to an excel sheet
 #' @export

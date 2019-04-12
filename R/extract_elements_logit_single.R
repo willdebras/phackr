@@ -4,7 +4,7 @@
 #'
 #' @param x
 #'
-#' @return a single column tibble indicating significance and directionality of a logit regression output
+#' @return a single column tibble indicating significance and directionality of a logistic regression output
 #' @export
 #' @import dplyr
 #' @importFrom purrr pluck
