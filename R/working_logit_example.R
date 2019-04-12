@@ -5,7 +5,7 @@ library(dplyr)
 library(broom)
 library(rio)
 
-data <- import("full_data.dta") #Change to full_data.dta
+data <- import("full_data.dta")
 survey_data <- phackr_setup(data = data, weight = "finalwt", caseid = "su_id")
 
 survey_data <- survey_data %>%
