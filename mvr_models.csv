@@ -1,0 +1,8 @@
+"","factor(trade1a)","factor(trade1b)","factor(trade1c)","factor(trade1d)","factor(trade1e)","factor(trade1f)","factor(trade1g)","factor(trade2)","factor(trade3a)","factor(trade3b)","factor(trade3c)"
+"urban","","","","","","","","-","","+",""
+"marital","","","","-","-","","","","","","+"
+"agegrp","","","","","","","","","","",""
+"education","","","-","","","","","+","+","-",""
+"hhincome","","-","","","","","","","","",""
+"empstatus","","","","","","","","","","",""
+"gender","","","","","-","+","","+","","",""
