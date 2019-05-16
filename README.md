@@ -5,7 +5,7 @@
 
 The goal of phackr is to produce excel sheets showing multivariate
 significance for several dependent variables across as many covariates
-as specified. The future plan for the package is to allow specification
+as specified. The function currently only supports ordered logistic regression models. The future plan for the package is to allow specification
 of several interchangeable covariates to output to multiple excel
 sheets.
 
