@@ -12,7 +12,7 @@
 #'
 extract_elements_logit_single <- function(dv_models, x) {
 
-  data.frame(pluck(dv_models, x)) %>%
+  ele <- data.frame(pluck(dv_models, x)) %>%
     slice(-1) %>%
     mutate(mvr = ifelse(p.value > 0.05,
                         "",
@@ -22,5 +22,6 @@ extract_elements_logit_single <- function(dv_models, x) {
                         )
     ) %>%
     select(mvr)
+  return(ele)
 
 }
