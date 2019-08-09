@@ -1,378 +1,193 @@
-[0mMicrosoft Windows [Version 10.0.16299.431][0K[?25l
+[0m[0KMicrosoft Windows [Version 10.0.16299.431][0K[?25l
 (c) 2017 Microsoft Corporation. All rights reserved.[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote a[0K[?25hd[0Kd[0K[56G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[63G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin ^V[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin[0K[63G[?25h[?25l[2A(c) 2017 Microsoft Corporation. All rights res[0Ke
-rved.[0K
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit -[0K[?25h-[0Kn[0Ko[0K[57G[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit --no v[0K[?25he[0Kr[0Ky[0Kf[0Ki[0K[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit --no veryf[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit --no very[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit --no ver[0K[?25hi[0Kf[0Ky[0K-[0K-[0K]0;  - git  commit --no verify--[?25l
+[0K[?25herror: ambiguous option: no (could be --no-allow-empty or --no-allow-empty-messag[0Ke[?25l
+)[0K
+usage: git commit [<options>] [--] <pathspec>...[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>git re[0Km
-ote add origin[0K[16G[?25h[?25lote add origin g[0K[?25hi[0Kt[0K@[0Kg[0Ki[0Kt[0Kh[0Ku[0Kb[0K.[0Kc[0Ko[0Km[0K:[0Kw[0Ki[0Kl[0Kl[0Kd[0Ke[0Kb[0Kr[0Ka[0Ks[0K/[0Kp[0Kh[0Ka[0Kc[0Kh[0K[?25lote add origin git@github.com:willdebras/phac[0K[?25hk[0K[0Kr[?25l
-[0K[?25h.[0Kg[0Ki[0Kt[0K]0;  - git  remote add origin git@github.com:willdebras/phackr.git[?25l
+    -q, --quiet           suppress summary after successful commit[0K
+    -v, --verbose         show diff in commit message template[0K
+[0K
+Commit message options[0K
+    -F, --file <file>     read message from file[0K
+    --author <author>     override author for commit[0K
+    --date <date>         override date for commit[0K
+    -m, --message <message>[0K
+                          commit message[0K
+    -c, --reedit-message <commit>[0K
+                          reuse and edit message from specified commit[0K
+    -C, --reuse-message <commit>[0K
+                          reuse message from specified commit[0K
+    --fixup <commit>      use autosquash formatted message to fixup specified com[0Km
+it[0K
+    --squash <commit>     use autosquash formatted message to squash specified co[0Km
+mit[0K
+    --reset-author        the commit is authored by me now (used with -C/-c/--ame[0Kn
+d)[0K
+    -s, --signoff         add Signed-off-by:[0K
+    -t, --template <file>[0K
+                          use specified template file[0K
+    -e, --edit            force edit of commit[0K
+    --cleanup <default>   how to strip spaces and #comments from message[0K
+    --status              include status in commit message template[0K
+    -S, --gpg-sign[=<key-id>][0K
+                          GPG sign commit[0K
+[0K
+Commit contents options[0K
+    -a, --all             commit all changed files[0K
+    -i, --include         add specified files to index for commit[0K
+    --interactive         interactively add files[0K
+    -p, --patch           interactively add changes[0K
+    -o, --only            commit only specified files[0K
+    -n, --no-verify       bypass pre-commit and commit-msg hooks[0K
+    --dry-run             show what would be committed[0K
+    --short               show status concisely[0K
+    --branch              show branch information[0K
+    --ahead-behind        compute full ahead/behind values[0K
+    --porcelain           machine-readable output[0K
+    --long                show status in long format (default)[0K
+    -z, --null            terminate entries with NUL[0K
+    --amend               amend previous commit[0K
+    --no-post-rewrite     bypass post-rewrite hook[0K
+    -u, --untracked-files[=<mode>][0K
+                          show untracked files, optional modes: all, normal, no. [0K(
+Default: all)[0K
+[0K
 [0K[?25h]0; [?25l
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kr[0Kt[0K[46G[?25lC:\Users\Bonnell-William\Desktop\phackr>girt p[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>girt[0K[46G[?25h[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>gir[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>gi[0K[?25ht[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git p[0K[?25hu[0K[0Ks[?25l
-[0K[?25hh[0K[3G[?25lh -[0K[?25hu[0K[6G[?25lh -u i[0K[?25h[?25lh -u[0K[6G[?25h[?25lh -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[13G[?25lh -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K]0;  - git  push -u origin master[?25l
-[0K[?25h]0; error: src refspec master does not match any[0K[?25l
-[0;31merror: failed to push some refs to 'git@github[0K.
-com:willdebras/phackr.git'[0m[0K
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit n[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit[0K[52G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit -[0K[?25h-[0Kn[0Ko[0Kv[0Ke[0Kr[0Ki[0Kf[0Ky[0Ky[0K[?25l
+[0K[?25h]0;  - git  commit --noverifyyerror: unknown option `noverifyy'[0K[?25l
+usage: git commit [<options>] [--] <pathspec>...[0K
+[0K
+    -q, --quiet           suppress summary after successful commit[0K
+    -v, --verbose         show diff in commit message template[0K
+[0K
+Commit message options[0K
+    -F, --file <file>     read message from file[0K
+    --author <author>     override author for commit[0K
+    --date <date>         override date for commit[0K
+    -m, --message <message>[0K
+                          commit message[0K
+    -c, --reedit-message <commit>[0K
+                          reuse and edit message from specified commit[0K
+    -C, --reuse-message <commit>[0K
+                          reuse message from specified commit[0K
+    --fixup <commit>      use autosquash formatted message to fixup specified com[0Km
+it[0K
+    --squash <commit>     use autosquash formatted message to squash specified co[0Km
+mit[0K
+    --reset-author        the commit is authored by me now (used with -C/-c/--ame[0Kn
+d)[0K
+    -s, --signoff         add Signed-off-by:[0K
+    -t, --template <file>[0K
+                          use specified template file[0K
+    -e, --edit            force edit of commit[0K
+    --cleanup <default>   how to strip spaces and #comments from message[0K
+    --status              include status in commit message template[0K
+    -S, --gpg-sign[=<key-id>][0K
+                          GPG sign commit[0K
+[0K
+Commit contents options[0K
+    -a, --all             commit all changed files[0K
+    -i, --include         add specified files to index for commit[0K
+    --interactive         interactively add files[0K
+    -p, --patch           interactively add changes[0K
+    -o, --only            commit only specified files[0K
+    -n, --no-verify       bypass pre-commit and commit-msg hooks[0K
+    --dry-run             show what would be committed[0K
+    --short               show status concisely[0K
+    --branch              show branch information[0K
+    --ahead-behind        compute full ahead/behind values[0K
+    --porcelain           machine-readable output[0K
+    --long                show status in long format (default)[0K
+    -z, --null            terminate entries with NUL[0K
+    --amend               amend previous commit[0K
+    --no-post-rewrite     bypass post-rewrite hook[0K
+    -u, --untracked-files[=<mode>][0K
+                          show untracked files, optional modes: all, normal, no. [0K(
+Default: all)[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25h[?25l[11A[0K
-C:\Users\Bonnell-William\Desktop\phackr>git remote add origin git@github.com:willdebras/phackr.git[0K
-[0K
-C:\Users\Bonnell-William\Desktop\phackr>git push -u origin master[0K
-error: src refspec master does not match any[0K
-[0;31merror: failed to push some refs to 'git@github.com:willdebras/phackr.git'[0K
-[0m[0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K
-[0K
-[0K
-[0K
-[0K[4A[41G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>h[0K
-[0K
-[0K
-[0K
-[0K[4A[42G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>[0K
-[0K
-[0K
-[0K
-[0K[4A[41G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>g[0K
-[0K
-[0K
-[0K
-[0K[4A[42G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>gi[0K
-[0K
-[0K
-[0K
-[0K[4A[43G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git[0K
-[0K
-[0K
-[0K
-[0K[4A[44G[?25h[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git p[0K
-[0K
-[0K
-[0K
-[0K[4A[46G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git pu[0K
-[0K
-[0K
-[0K
-[0K[4A[47G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git pus[0K
-[0K
-[0K
-[0K
-[0K[4A[48G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git pu[0K
-[0K
-[0K
-[0K
-[0K[4A[47G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git p[0K
-[0K
-[0K
-[0K
-[0K[4A[46G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git[0K
-[0K
-[0K
-[0K
-[0K[4A[45G[?25h[44G[?25lC:\Users\Bonnell-William\Desktop\phackr>g[0K
-[0K
-[0K
-[0K
-[0K[4A[42G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>[0K
-[0K
-[0K
-[0K
-[0K[4A[41G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>g[0K
-[0K
-[0K
-[0K
-[0K[4A[42G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>gi[0K
-[0K
-[0K
-[0K
-[0K[4A[43G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git[0K
-[0K
-[0K
-[0K
-[0K[4A[44G[?25h[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K
-[0K
-[0K
-[0K
-[0K[4A[46G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git re[0K
-[0K
-[0K
-[0K
-[0K[4A[47G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git rem[0K
-[0K
-[0K
-[0K
-[0K[4A[48G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remo[0K
-[0K
-[0K
-[0K
-[0K[4A[49G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remot[0K
-[0K
-[0K
-[0K
-[0K[4A[50G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote[0K
-[0K
-[0K
-[0K
-[0K[4A[51G[?25h[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote a[0K
-[0K
-[0K
-[0K
-[0K[4A[53G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote ad[0K
-[0K
-[0K
-[0K
-[0K[4A[54G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add[0K
-[0K
-[0K
-[0K
-[0K[4A[55G[?25h[56G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add o[0K
-[0K
-[0K
-[0K
-[0K[4A[57G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add or[0K
-[0K
-[0K
-[0K
-[0K[4A[58G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add ori[0K
-[0K
-[0K
-[0K
-[0K[4A[59G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add orig[0K
-[0K
-[0K
-[0K
-[0K[4A[60G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origi[0K
-[0K
-[0K
-[0K
-[0K[4A[61G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin[0K
-[0K
-[0K
-[0K
-[0K[4A[62G[?25h[63G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin h[0K
-[0K
-[0K
-[0K
-[0K[4A[64G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin ht[0K
-[0K
-[0K
-[0K
-[0K[4A[65G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htp[0K
-[0K
-[0K
-[0K
-[0K[4A[66G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htpp[0K
-[0K
-[0K
-[0K
-[0K[4A[67G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htpps[0K
-[0K
-[0K
-[0K
-[0K[4A[68G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htpps:[0K
-[0K
-[0K
-[0K
-[0K[4A[69G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htpps[0K
-[0K
-[0K
-[0K
-[0K[4A[68G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htpp[0K
-[0K
-[0K
-[0K
-[0K[4A[67G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htp[0K
-[0K
-[0K
-[0K
-[0K[4A[66G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin ht[0K
-[0K
-[0K
-[0K
-[0K[4A[65G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin htt[0K
-[0K
-[0K
-[0K
-[0K[4A[66G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin http[0K
-[0K
-[0K
-[0K
-[0K[4A[67G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https[0K
-[0K
-[0K
-[0K
-[0K[4A[68G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https:[0K
-[0K
-[0K
-[0K
-[0K[4A[69G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https:/[0K
-[0K
-[0K
-[0K
-[0K[4A[70G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://[0K
-[0K
-[0K
-[0K
-[0K[4A[71G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://g[0K
-[0K
-[0K
-[0K
-[0K[4A[72G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://gi[0K
-[0K
-[0K
-[0K
-[0K[4A[73G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://git[0K
-[0K
-[0K
-[0K
-[0K[4A[74G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://gith[0K
-[0K
-[0K
-[0K
-[0K[4A[75G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://githu[0K
-[0K
-[0K
-[0K
-[0K[4A[76G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github[0K
-[0K
-[0K
-[0K
-[0K[4A[77G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.[0K
-[0K
-[0K
-[0K
-[0K[4A[78G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.c[0K
-[0K
-[0K
-[0K
-[0K[4A[79G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.co[0K
-[0K
-[0K
-[0K
-[0K[4A[80G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com[0K
-[0K
-[0K
-[0K
-[0K[4A[81G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/[0K
-[0K
-[0K
-[0K
-[0K[4A[82G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/w[0K
-[0K
-[0K
-[0K
-[0K[4A[83G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/wi[0K
-[0K
-[0K
-[0K
-[0K[4A[84G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/wil[0K
-[0K
-[0K
-[0K
-[0K[4A[85G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/will[0K
-[0K
-[0K
-[0K
-[0K[4A[86G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willd[0K
-[0K
-[0K
-[0K
-[0K[4A[87G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willde[0K
-[0K
-[0K
-[0K
-[0K[4A[88G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdeb[0K
-[0K
-[0K
-[0K
-[0K[4A[89G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebr[0K
-[0K
-[0K
-[0K
-[0K[4A[90G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebra[0K
-[0K
-[0K
-[0K
-[0K[4A[91G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras[0K
-[0K
-[0K
-[0K
-[0K[4A[92G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/[0K
-[0K
-[0K
-[0K
-[0K[4A[93G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/p[0K
-[0K
-[0K
-[0K
-[0K[4A[94G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/pa[0K
-[0K
-[0K
-[0K
-[0K[4A[95G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/p[0K
-[0K
-[0K
-[0K
-[0K[4A[94G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/ph[0K
-[0K
-[0K
-[0K
-[0K[4A[95G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/pha[0K
-[0K
-[0K
-[0K
-[0K[4A[96G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/phac[0K
-[0K
-[0K
-[0K
-[0K[4A[97G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/phack[0K
-[0K
-[0K
-[0K
-[0K[4A[98G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin https://github.com/willdebras/phackr[0K
-[0K
-[0K
-[0K
-[0K[4A[99G[?25h]0;  - git  remote add origin https://github.com/willdebras/phackr[?25l
-[?25hfatal: remote origin already exists.[0K[?25l
-[0K
-[0K
-[0K[2A[?25h]0; [?25l
-C:\Users\Bonnell-William\Desktop\phackr>[0K
-[0K[1A[41G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>g[0K
-[0K[1A[42G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>gi[0K
-[0K[1A[43G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git[0K
-[0K[1A[44G[?25h[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K
-[0K[1A[46G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git re[0K
-[0K[1A[47G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git rem[0K
-[0K[1A[48G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remo[0K
-[0K[1A[49G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remot[0K
-[0K[1A[50G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote[0K
-[0K[1A[51G[?25h[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote -[0K
-[0K[1A[53G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote -v[0K
-[0K[1A[54G[?25h]0;  - git  remote -v[?25l
-[?25h]0; origin  git@github.com:willdebras/phackr.git (fetch)[0K[?25l
-origin  git@github.com:willdebras/phackr.git (push)[0K
-[0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote r[0K[?25hm[0K[55G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm d[0K[?25he[0Ks[0Kt[0Ki[0Kn[0Ka[0Kt[0Ki[0Ko[0Kn[0K]0;  - git  remote rm destination[?25l
-[0K[?25hfatal: No such remote: 'destination'[0K[?25l
 [0K[?25h]0; [?25l
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote r[0K[?25hm[0K[55G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm g[0K[?25hi[0Kt[0K@[0K[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm git[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm gi[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm g[0K[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm[0K[55G[?25h[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote rm o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K]0;  - git  remote rm origin[?25l
-[0K[?25h]0; [?25l
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote -[0K[?25hv[0K]0;  - git  remote -v[?25l
-[0K[?25h]0; [?25l
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[44G[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git r[0K[?25he[0Km[0Ko[0Kt[0K[51G[50G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote[0K[?25h[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote a[0K[?25hd[0Kd[0K[56G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[63G[?25lC:\Users\Bonnell-William\Desktop\phackr>git remote add origin h[0K[?25ht[0Kt[0Kp[0Ks[0K:[0K/[0K/[0Kg[0Ki[0Kt[0Kh[0Ku[0Kb[0K.[0Kc[0Ko[0Km[0K/[0Kw[0Ki[0Kl[0Kl[0Kd[0Ke[0Kb[0Kr[0Ka[0Ks[0K/[0Kp[0Kh[0Ka[0Kc[0Kk[0Kr[0K]0;  - git  remote add origin https://github.com/willdebras/phackr[?25l
-[0K[?25h]0; [?25l
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git p[0K[?25hu[0Ks[0Kh[0K[?25lC:\Users\Bonnell-William\Desktop\phackr>git pus[0K[?25hh[0K[50G[?25lC:\Users\Bonnell-William\Desktop\phackr>git push -[0K[?25hu[0K[53G[?25lC:\Users\Bonnell-William\Desktop\phackr>git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[60G[?25lC:\Users\Bonnell-William\Desktop\phackr>git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K]0;  - git  push -u origin master[?25l
-[0K[?25hEnumerating objects: 32, done.[0K[?25l
-Counting objects:  43% (14/32)[0K[1G[?25hCounting objects: 100% (32/32), done.[0K[?25l
-Delta compression using up to 4 threads[0K
-Compressing objects: 100% (23/23), done.[0K
-Writing objects:  71% (23/32)[0K[1G[?25hWriting objects: 100% (32/32), 3.82 KiB | 326.00 KiB/s, done.[0K[?25l
-Total 32 (delta 3), reused 0 (delta 0)[0K
-[0K[?25hremote: Resolving deltas: 100% (3/3), done.[0K[?25l
-[0K[?25hTo https://github.com/willdebras/phackr[0K[?25l
- * [new branch]      master -> master[0K
-[0K[?25h]0; Branch 'master' set up to track remote branch 'master' from 'origin'.[0K[?25l
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hgit commit --noverifyy[0K[62G[63G[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit --noverify[0K[?25h]0;  - git  commit --noverify[?25l
+[0K[?25h]0; error: unknown option `noverify'[0K[?25l
+usage: git commit [<options>] [--] <pathspec>...[0K
 [0K
-C:\Users\Bonnell-William\Desktop\phackr>[0K[?25h
+    -q, --quiet           suppress summary after successful commit[0K
+    -v, --verbose         show diff in commit message template[0K
+[0K
+Commit message options[0K
+    -F, --file <file>     read message from file[0K
+    --author <author>     override author for commit[0K
+    --date <date>         override date for commit[0K
+    -m, --message <message>[0K
+                          commit message[0K
+    -c, --reedit-message <commit>[0K
+                          reuse and edit message from specified commit[0K
+    -C, --reuse-message <commit>[0K
+                          reuse message from specified commit[0K
+    --fixup <commit>      use autosquash formatted message to fixup specified com[0Km
+it[0K
+    --squash <commit>     use autosquash formatted message to squash specified co[0Km
+mit[0K
+    --reset-author        the commit is authored by me now (used with -C/-c/--ame[0Kn
+d)[0K
+    -s, --signoff         add Signed-off-by:[0K
+    -t, --template <file>[0K
+                          use specified template file[0K
+    -e, --edit            force edit of commit[0K
+    --cleanup <default>   how to strip spaces and #comments from message[0K
+    --status              include status in commit message template[0K
+    -S, --gpg-sign[=<key-id>][0K
+                          GPG sign commit[0K
+[0K
+Commit contents options[0K
+    -a, --all             commit all changed files[0K
+    -i, --include         add specified files to index for commit[0K
+    --interactive         interactively add files[0K
+    -p, --patch           interactively add changes[0K
+    -o, --only            commit only specified files[0K
+    -n, --no-verify       bypass pre-commit and commit-msg hooks[0K
+    --dry-run             show what would be committed[0K
+    --short               show status concisely[0K
+    --branch              show branch information[0K
+    --ahead-behind        compute full ahead/behind values[0K
+    --porcelain           machine-readable output[0K
+    --long                show status in long format (default)[0K
+    -z, --null            terminate entries with NUL[0K
+    --amend               amend previous commit[0K
+    --no-post-rewrite     bypass post-rewrite hook[0K
+    -u, --untracked-files[=<mode>][0K
+                          show untracked files, optional modes: all, normal, no. [0K(
+Default: all)[0K
+[0K
+[0K
+C:\Users\Bonnell-William\Desktop\phackr>[0K[?25hg[0Ki[0Kt[0K[45G[?25lC:\Users\Bonnell-William\Desktop\phackr>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[52G[?25lC:\Users\Bonnell-William\Desktop\phackr>git commit -[0K[?25h-[0Kn[0Ko[0K-[0Kv[0Ke[0Kr[0Ki[0Kf[0Ky[0K]0;  - git  commit --no-verify[?25l
+[0K[?25hhint: Waiting for your editor to close the file...[0K[52G[0m[1;1H[2J[?25l[0m[0K[?25h[?25l
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0;37;97;41mE325: ATTENTION[0m[0K
+Found a swap file by the name "C:/Users/Bonnell-William/Desktop/phackr/.git/.COMM[0KI
+T_EDITMSG.swp"[0K
+          owned by: Bonnell-William   dated: Sun Apr  7 12:52:54 2019[0K
+         file name: ~Bonnell-William/Desktop/phackr/.git/COMMIT_EDITMSG[0K
+          modified: YES[0K
+         user name: Bonnell-William   host name: 55E-5Q321G2[0K
+        process ID: 76724[0K
+While opening file "C:/Users/Bonnell-William/Desktop/phackr/.git/COMMIT_EDITMSG"[0K
+             dated: Thu Apr 11 13:49:19 2019[0K
+      NEWER than swap file![0K
+[0K
+(1) Another program may be editing the same file.  If this is the case,[0K
+    be careful not to end up with two different instances of the same[0K
+[0;32;92m-- More --[0m[0K[?25h
