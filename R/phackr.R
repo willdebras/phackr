@@ -64,5 +64,7 @@ phackr <- function(data, dvs, demos, logit = FALSE) {
     column_to_rownames(var="rows") %>%
     `colnames<-`(unlist(dv, use.names = FALSE))
 
+  return(sheet)
+
 }
 
